@@ -6,7 +6,6 @@ BGM220 explorer kit
 
 
 ## Incremental approach to development
-
 Create a project as specified below.  Ensure that:
  - project builds
  - expected files are generated
