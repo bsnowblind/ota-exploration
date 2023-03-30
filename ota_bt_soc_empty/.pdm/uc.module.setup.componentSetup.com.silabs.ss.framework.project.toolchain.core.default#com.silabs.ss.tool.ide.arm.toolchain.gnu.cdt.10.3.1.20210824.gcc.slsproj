@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="uc.module.setup.componentSetup.com.silabs.ss.framework.project.toolchain.core.default#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:10.3.1.20210824.gcc" propertyScope="project">
   <folder name="image">
-    <file name="readme_img0.png" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_soc_empty/image/readme_img0.png"/>
-    <file name="readme_img1.png" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_soc_empty/image/readme_img1.png"/>
-    <file name="readme_img2.png" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_soc_empty/image/readme_img2.png"/>
-    <file name="readme_img3.png" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_soc_empty/image/readme_img3.png"/>
-    <file name="readme_img4.png" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_soc_empty/image/readme_img4.png"/>
+    <file name="readme_img0.png" linked="false" uri="studio:/project/image/readme_img0.png"/>
+    <file name="readme_img1.png" linked="false" uri="studio:/project/image/readme_img1.png"/>
+    <file name="readme_img2.png" linked="false" uri="studio:/project/image/readme_img2.png"/>
+    <file name="readme_img3.png" linked="false" uri="studio:/project/image/readme_img3.png"/>
+    <file name="readme_img4.png" linked="false" uri="studio:/project/image/readme_img4.png"/>
   </folder>
   <folder name="gecko_sdk_4.2.2">
     <folder name="platform">
@@ -472,17 +472,12 @@
           <folder name="gatt_service_device_information">
             <file name="sl_gatt_service_device_information.h" linked="false" uri="studio:/sdk/app/bluetooth/common/gatt_service_device_information/sl_gatt_service_device_information.h"/>
           </folder>
-          <folder name="in_place_ota_dfu">
-            <file name="sl_bt_in_place_ota_dfu.c" linked="false" uri="studio:/sdk/app/bluetooth/common/in_place_ota_dfu/sl_bt_in_place_ota_dfu.c"/>
-            <file name="sl_bt_in_place_ota_dfu.h" linked="false" uri="studio:/sdk/app/bluetooth/common/in_place_ota_dfu/sl_bt_in_place_ota_dfu.h"/>
-          </folder>
         </folder>
       </folder>
     </folder>
     <folder name="protocol">
       <folder name="bluetooth">
         <folder name="src">
-          <file name="sl_apploader_util_s2.c" linked="false" uri="studio:/sdk/protocol/bluetooth/src/sl_apploader_util_s2.c"/>
           <file name="sli_bt_advertiser_config.c" linked="false" uri="studio:/sdk/protocol/bluetooth/src/sli_bt_advertiser_config.c"/>
           <file name="sli_bt_connection_config.c" linked="false" uri="studio:/sdk/protocol/bluetooth/src/sli_bt_connection_config.c"/>
           <file name="sli_bt_dynamic_gattdb_config.c" linked="false" uri="studio:/sdk/protocol/bluetooth/src/sli_bt_dynamic_gattdb_config.c"/>
@@ -495,7 +490,6 @@
           <file name="sl_bt_stack_init.c" linked="false" uri="studio:/sdk/protocol/bluetooth/src/sl_bt_stack_init.c"/>
         </folder>
         <folder name="inc">
-          <file name="sl_apploader_util.h" linked="false" uri="studio:/sdk/protocol/bluetooth/inc/sl_apploader_util.h"/>
           <file name="sli_bt_config_defs.h" linked="false" uri="studio:/sdk/protocol/bluetooth/inc/sli_bt_config_defs.h"/>
           <file name="sli_bt_advertiser_config.h" linked="false" uri="studio:/sdk/protocol/bluetooth/inc/sli_bt_advertiser_config.h"/>
           <file name="sli_bt_connection_config.h" linked="false" uri="studio:/sdk/protocol/bluetooth/inc/sli_bt_connection_config.h"/>
@@ -698,18 +692,18 @@
       </folder>
     </folder>
   </folder>
-  <file name="main.c" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_soc_empty/main.c"/>
-  <file name="app.c" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_soc_empty/app.c"/>
-  <file name="app.h" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_soc_empty/app.h"/>
-  <file name="readme.md" linked="false" uri="studio:/sdk/app/bluetooth/example/bt_soc_empty/readme.md"/>
+  <file name="main.c" linked="false" uri="studio:/project/main.c"/>
+  <file name="app.c" linked="false" uri="studio:/project/app.c"/>
+  <file name="app.h" linked="false" uri="studio:/project/app.h"/>
+  <file name="readme.md" linked="false" uri="studio:/project/readme.md"/>
   <file name="create_bl_files.bat" generated="true" linked="false"/>
   <file name="create_bl_files.sh" generated="true" linked="false"/>
   <file name="sl_gatt_service_device_information.c" generated="true" linked="false"/>
   <includePath uri="studio:/project/"/>
   <includePath uri="studio:/project/gecko_sdk_4.2.2/platform/Device/SiliconLabs/BGM22/Include"/>
   <includePath uri="studio:/project/gecko_sdk_4.2.2/app/common/util/app_assert"/>
-  <includePath uri="studio:/project/gecko_sdk_4.2.2/protocol/bluetooth/inc"/>
   <includePath uri="studio:/project/gecko_sdk_4.2.2/platform/common/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_4.2.2/protocol/bluetooth/inc"/>
   <includePath uri="studio:/project/gecko_sdk_4.2.2/hardware/board/inc"/>
   <includePath uri="studio:/project/gecko_sdk_4.2.2/platform/bootloader"/>
   <includePath uri="studio:/project/gecko_sdk_4.2.2/platform/bootloader/api"/>
@@ -722,7 +716,6 @@
   <includePath uri="studio:/project/gecko_sdk_4.2.2/platform/radio/rail_lib/plugin/fem_util"/>
   <includePath uri="studio:/project/gecko_sdk_4.2.2/app/bluetooth/common/gatt_service_device_information"/>
   <includePath uri="studio:/project/gecko_sdk_4.2.2/platform/service/hfxo_manager/inc"/>
-  <includePath uri="studio:/project/gecko_sdk_4.2.2/app/bluetooth/common/in_place_ota_dfu"/>
   <includePath uri="studio:/project/gecko_sdk_4.2.2/platform/security/sl_component/sl_mbedtls_support/config"/>
   <includePath uri="studio:/project/gecko_sdk_4.2.2/platform/security/sl_component/sl_mbedtls_support/inc"/>
   <includePath uri="studio:/project/gecko_sdk_4.2.2/util/third_party/mbedtls/include"/>
@@ -749,7 +742,6 @@
   <includePath uri="studio:/project/gecko_sdk_4.2.2/platform/security/sl_component/sl_protocol_crypto/src"/>
   <macroDefinition name="BGM220PC22HNA"/>
   <macroDefinition name="SL_APP_PROPERTIES"/>
-  <macroDefinition name="BOOTLOADER_APPLOADER" value="1"/>
   <macroDefinition name="SL_BOARD_NAME" value="&quot;BRD4314A&quot;"/>
   <macroDefinition name="SL_BOARD_REV" value="&quot;A02&quot;"/>
   <macroDefinition name="SL_COMPONENT_CATALOG_PRESENT"/>
