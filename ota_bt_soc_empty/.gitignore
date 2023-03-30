@@ -1,0 +1,8 @@
+GNU\ ARM*/*
+*.obj
+*__i
+*.lst
+*.mk
+*.lnp
+*.m51
+*.omf
