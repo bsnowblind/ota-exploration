@@ -6,6 +6,7 @@
 #include "sl_bt_stack_init.h"
 #include "sl_component_catalog.h"
 #include "sl_gatt_service_device_information.h"
+#include "sli_bt_app_ota_dfu.h"
 #if !defined(SL_CATALOG_KERNEL_PRESENT)
 /**
  * Override @ref PendSV_Handler for the Link Layer task when Bluetooth runs
@@ -56,6 +57,7 @@ SL_WEAK void sl_bt_on_event(sl_bt_msg_t* evt)
 void sl_bt_process_event(sl_bt_msg_t *evt)
 {
   sl_gatt_service_device_information_on_event(evt);
+  sli_bt_app_ota_dfu_on_event(evt);
   sl_bt_on_event(evt);
 }
 

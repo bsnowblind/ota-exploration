@@ -469,6 +469,11 @@
       </folder>
       <folder name="bluetooth">
         <folder name="common">
+          <folder name="app_ota_dfu">
+            <file name="sl_bt_app_ota_dfu.c" linked="false" uri="studio:/sdk/app/bluetooth/common/app_ota_dfu/sl_bt_app_ota_dfu.c"/>
+            <file name="sl_bt_app_ota_dfu.h" linked="false" uri="studio:/sdk/app/bluetooth/common/app_ota_dfu/sl_bt_app_ota_dfu.h"/>
+            <file name="sli_bt_app_ota_dfu.h" linked="false" uri="studio:/sdk/app/bluetooth/common/app_ota_dfu/sli_bt_app_ota_dfu.h"/>
+          </folder>
           <folder name="gatt_service_device_information">
             <file name="sl_gatt_service_device_information.h" linked="false" uri="studio:/sdk/app/bluetooth/common/gatt_service_device_information/sl_gatt_service_device_information.h"/>
           </folder>
@@ -702,6 +707,7 @@
   <includePath uri="studio:/project/"/>
   <includePath uri="studio:/project/gecko_sdk_4.2.2/platform/Device/SiliconLabs/BGM22/Include"/>
   <includePath uri="studio:/project/gecko_sdk_4.2.2/app/common/util/app_assert"/>
+  <includePath uri="studio:/project/gecko_sdk_4.2.2/app/bluetooth/common/app_ota_dfu"/>
   <includePath uri="studio:/project/gecko_sdk_4.2.2/platform/common/inc"/>
   <includePath uri="studio:/project/gecko_sdk_4.2.2/protocol/bluetooth/inc"/>
   <includePath uri="studio:/project/gecko_sdk_4.2.2/hardware/board/inc"/>

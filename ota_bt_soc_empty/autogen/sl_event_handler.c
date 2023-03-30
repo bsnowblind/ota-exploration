@@ -16,6 +16,8 @@
 #include "btl_interface.h"
 #include "sl_board_control.h"
 #include "sl_sleeptimer.h"
+#include "sl_bt_app_ota_dfu.h"
+#include "sli_bt_app_ota_dfu.h"
 #include "sl_bluetooth.h"
 #include "sl_mbedtls.h"
 #include "sl_mpu.h"
@@ -67,6 +69,7 @@ void sl_stack_init(void)
 
 void sl_internal_app_init(void)
 {
+  sl_bt_app_ota_dfu_init();
 }
 
 void sl_platform_process_action(void)
@@ -84,5 +87,6 @@ void sl_stack_process_action(void)
 
 void sl_internal_app_process_action(void)
 {
+  sli_bt_app_ota_dfu_step();
 }
 
