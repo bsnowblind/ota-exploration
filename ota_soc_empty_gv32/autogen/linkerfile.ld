@@ -37,14 +37,6 @@ ENTRY(Reset_Handler)
 
 SECTIONS
 {
-  .text_apploader :
-  {
-    KEEP(*(.binapploader*))
-  } > FLASH
-  .text_signature :
-  {
-    . = ALIGN(8192);
-  } > FLASH
 
   .text :
   {

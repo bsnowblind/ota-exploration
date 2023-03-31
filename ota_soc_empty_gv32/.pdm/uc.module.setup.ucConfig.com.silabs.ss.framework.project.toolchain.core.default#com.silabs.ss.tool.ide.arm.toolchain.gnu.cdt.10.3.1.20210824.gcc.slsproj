@@ -3,7 +3,6 @@
   <folder name="config">
     <folder name="btconf">
       <file name="gatt_configuration.btconf" generated="true" linked="false"/>
-      <file name="ota_dfu.xml" generated="true" linked="false"/>
     </folder>
     <file name="sl_memory_config.h" generated="true" linked="false"/>
     <file name="sl_device_init_lfrco_config.h" generated="true" linked="false"/>
@@ -23,8 +22,8 @@
     <file name="mbedtls_config.h" generated="true" linked="false"/>
     <file name="app_assert_config.h" generated="true" linked="false"/>
     <file name="emlib_core_debug_config.h" generated="true" linked="false"/>
-    <file name="sl_sleeptimer_config.h" generated="true" linked="false"/>
     <file name="psa_crypto_config.h" generated="true" linked="false"/>
+    <file name="sl_sleeptimer_config.h" generated="true" linked="false"/>
   </folder>
   <includePath uri="studio:/project/config"/>
   <includePath uri="studio:/project/config/btconf"/>

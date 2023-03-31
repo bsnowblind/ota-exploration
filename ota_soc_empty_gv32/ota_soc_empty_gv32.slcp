@@ -31,7 +31,6 @@ component:
 - {id: bluetooth_feature_scanner}
 - {id: bluetooth_stack}
 - {id: component_catalog}
-- {id: ota_dfu}
 - {id: bootloader_interface}
 - {id: rail_util_pti}
 - {id: app_assert}

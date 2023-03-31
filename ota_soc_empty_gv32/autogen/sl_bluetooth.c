@@ -14,7 +14,6 @@ const sli_bt_gattdb_t gattdb = {0};
 #endif // SL_CATALOG_GATT_CONFIGURATION_PRESENT
 #endif // SL_COMPONENT_CATALOG_PRESENT
 
-#include "sl_ota_dfu.h"
 
 static const sl_bt_configuration_t config = SL_BT_CONFIG_DEFAULT;
 
@@ -64,7 +63,6 @@ SL_WEAK void sl_bt_on_event(sl_bt_msg_t* evt)
 
 void sl_bt_process_event(sl_bt_msg_t *evt)
 {
-  sl_bt_ota_dfu_on_event(evt);
   sl_bt_on_event(evt);
 }
 
