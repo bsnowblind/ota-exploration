@@ -143,6 +143,22 @@
             <file name="sli_hfxo_manager.h" linked="false" uri="studio:/sdk/platform/service/hfxo_manager/inc/sli_hfxo_manager.h"/>
           </folder>
         </folder>
+        <folder name="iostream">
+          <folder name="src">
+            <file name="sl_iostream.c" linked="false" uri="studio:/sdk/platform/service/iostream/src/sl_iostream.c"/>
+            <file name="sl_iostream_retarget_stdio.c" linked="false" uri="studio:/sdk/platform/service/iostream/src/sl_iostream_retarget_stdio.c"/>
+            <file name="sl_iostream_stdlib_config.c" linked="false" uri="studio:/sdk/platform/service/iostream/src/sl_iostream_stdlib_config.c"/>
+            <file name="sl_iostream_uart.c" linked="false" uri="studio:/sdk/platform/service/iostream/src/sl_iostream_uart.c"/>
+            <file name="sl_iostream_usart.c" linked="false" uri="studio:/sdk/platform/service/iostream/src/sl_iostream_usart.c"/>
+          </folder>
+          <folder name="inc">
+            <file name="sl_iostream.h" linked="false" uri="studio:/sdk/platform/service/iostream/inc/sl_iostream.h"/>
+            <file name="sl_iostream_stdlib_config.h" linked="false" uri="studio:/sdk/platform/service/iostream/inc/sl_iostream_stdlib_config.h"/>
+            <file name="sl_iostream_uart.h" linked="false" uri="studio:/sdk/platform/service/iostream/inc/sl_iostream_uart.h"/>
+            <file name="sli_iostream_uart.h" linked="false" uri="studio:/sdk/platform/service/iostream/inc/sli_iostream_uart.h"/>
+            <file name="sl_iostream_usart.h" linked="false" uri="studio:/sdk/platform/service/iostream/inc/sl_iostream_usart.h"/>
+          </folder>
+        </folder>
         <folder name="mpu">
           <folder name="src">
             <file name="sl_mpu.c" linked="false" uri="studio:/sdk/platform/service/mpu/src/sl_mpu.c"/>
@@ -225,6 +241,7 @@
           <file name="em_rtcc.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_rtcc.c"/>
           <file name="em_se.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_se.c"/>
           <file name="em_system.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_system.c"/>
+          <file name="em_usart.c" linked="false" uri="studio:/sdk/platform/emlib/src/em_usart.c"/>
         </folder>
         <folder name="inc">
           <file name="em_burtc.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_burtc.h"/>
@@ -245,6 +262,7 @@
           <file name="em_rtcc.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_rtcc.h"/>
           <file name="em_se.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_se.h"/>
           <file name="em_system.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_system.h"/>
+          <file name="em_usart.h" linked="false" uri="studio:/sdk/platform/emlib/inc/em_usart.h"/>
         </folder>
       </folder>
       <folder name="radio">
@@ -304,6 +322,11 @@
           <folder name="app_assert">
             <file name="app_assert.h" linked="false" uri="studio:/sdk/app/common/util/app_assert/app_assert.h"/>
             <file name="sl_app_assert.h" linked="false" uri="studio:/sdk/app/common/util/app_assert/sl_app_assert.h"/>
+          </folder>
+          <folder name="app_log">
+            <file name="app_log.c" linked="false" uri="studio:/sdk/app/common/util/app_log/app_log.c"/>
+            <file name="app_log.h" linked="false" uri="studio:/sdk/app/common/util/app_log/app_log.h"/>
+            <file name="sl_app_log.h" linked="false" uri="studio:/sdk/app/common/util/app_log/sl_app_log.h"/>
           </folder>
         </folder>
       </folder>
@@ -672,6 +695,7 @@
   <includePath uri="studio:/project/"/>
   <includePath uri="studio:/project/gecko_sdk_3.2.3/platform/Device/SiliconLabs/BGM22/Include"/>
   <includePath uri="studio:/project/gecko_sdk_3.2.3/app/common/util/app_assert"/>
+  <includePath uri="studio:/project/gecko_sdk_3.2.3/app/common/util/app_log"/>
   <includePath uri="studio:/project/gecko_sdk_3.2.3/platform/common/inc"/>
   <includePath uri="studio:/project/gecko_sdk_3.2.3/protocol/bluetooth/inc"/>
   <includePath uri="studio:/project/gecko_sdk_3.2.3/hardware/board/inc"/>
@@ -683,6 +707,7 @@
   <includePath uri="studio:/project/gecko_sdk_3.2.3/platform/emdrv/common/inc"/>
   <includePath uri="studio:/project/gecko_sdk_3.2.3/platform/emlib/inc"/>
   <includePath uri="studio:/project/gecko_sdk_3.2.3/platform/service/hfxo_manager/inc"/>
+  <includePath uri="studio:/project/gecko_sdk_3.2.3/platform/service/iostream/inc"/>
   <includePath uri="studio:/project/gecko_sdk_3.2.3/util/third_party/crypto/sl_component/sl_mbedtls_support/config"/>
   <includePath uri="studio:/project/gecko_sdk_3.2.3/util/third_party/crypto/mbedtls/include"/>
   <includePath uri="studio:/project/gecko_sdk_3.2.3/util/third_party/crypto/mbedtls/library"/>
