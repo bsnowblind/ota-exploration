@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # use PATH_GCCARM env var to override default path for gcc-arm
 if [[ -z ${PATH_GCCARM} ]]; then
